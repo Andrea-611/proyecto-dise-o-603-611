@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>frames</title>
+</head>
+<frameset rows="100,*">
+    <frame id="frmsuperior" src="encabezado.html" />
+    <frameset cols="150,*">
+        <frame id="frmizquierda" name="frmizquierda" src="izquierda.html" />
+        <frame id="frmcuerpo" name="frmcuerpo" src="presentacion.html" />
+    </frameset>
+</frameset>
+
+<noframes>
+    <body bgcolor="#334f53">
+        <br><br><br><br><br><br>
+        <!-- Contenido alternativo para navegadores sin soporte de frames -->
+    </body>
+</noframes>
+</html>
